@@ -1,0 +1,24 @@
+
+<mat-card style="width:fit-content;padding: 0;" class="signature-pad">
+    <mat-toolbar *ngIf="showToolbar" color="{{toolbarColor}}">
+        <span>{{toolbarText}}</span>
+        <span style="flex: 1 1 auto;"></span>
+        <button *ngIf="showClearButton" mat-icon-button (click)="clearPad()">
+            <mat-icon>delete</mat-icon>
+        </button>
+        <button mat-button  *ngIf="showDoneButton" (click)="emitPointsAndBlob()">{{ doneButtonText }}</button>
+
+        </mat-toolbar>
+        
+    <canvas
+        [width]="width"
+        [height]="height"
+        #canvas></canvas>
+    </mat-card>
+    <ng-container *ngIf="!showToolbar">
+    <button *ngIf="showClearButton" mat-icon-button (click)="clearPad()">
+        <mat-icon>delete</mat-icon>
+    </button>
+    <button mat-button  *ngIf="showDoneButton" (click)="emitPointsAndBlob()">{{ doneButtonText }}</button>
+</ng-container>
+    

@@ -1,27 +1,35 @@
-# Work
+![Build](https://github.com/rockaru/material-sign/workflows/Build/badge.svg)
+![Demo](https://github.com/rockaru/material-sign/workflows/Demo/badge.svg)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+# Material Dual Listbox
 
-## Development server
+Simple dual list box component to use with your Angular app, along with Angular Material.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+If you don't need drag and drop support you can use [this one](https://github.com/rockaru/mea-sign) without Angular cdk
 
-## Code scaffolding
+[Demo](https://rockaru.github.io/sign/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Dependencies
+You will need:
 
-## Build
+- Angular ^10
+- Angular Material ^10
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Instalation
 
-## Running unit tests
+To install this library, run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+$ npm install material-sign --save
+```
 
-## Running end-to-end tests
+and then from your Angular AppModule:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-## Further help
+import { AppComponent } from './app.component';
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+// Import the module
+import { MaterialDualListboxModule } from '@rockaru/mea-material-sign';
