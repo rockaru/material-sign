@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build material-sign --prod",
     "publish": "npm publish dist/material-sign",
-    "demo": "ng build demo --prod --output-path docs --baseHref='https://rockaru.github.io/material-dual-listbox/'",
-
+    "demo": "ng build demo --prod --output-path docs --baseHref='https://rockaru.github.io/material-sign/'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,6 +23,7 @@
     "@angular/platform-browser": "~10.0.0",
     "@angular/platform-browser-dynamic": "~10.0.0",
     "@angular/router": "~10.0.0",
+    "material-sign": "0.0.3",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

@@ -26,7 +26,7 @@ export class MaterialSignComponent implements OnInit {
   @Input() showClearButton = true;
   @Input() clearButtonText = 'Clear';
 
-  @Input() format: 'blob' | 'base64' | 'json' = 'blob';
+  @Input() format: 'blob' | 'base64' | 'json' = 'base64';
 
   @Input() height = 300;
   @Input() width = 600;

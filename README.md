@@ -1,13 +1,13 @@
 ![Build](https://github.com/rockaru/material-sign/workflows/Build/badge.svg)
 ![Demo](https://github.com/rockaru/material-sign/workflows/Demo/badge.svg)
 
-# Material Dual Listbox
+# Material Sign
 
 Simple dual list box component to use with your Angular app, along with Angular Material.
 
-If you don't need drag and drop support you can use [this one](https://github.com/rockaru/mea-sign) without Angular cdk
+If you don't need drag and drop support you can use [this one](https://github.com/rockaru/material-sign) without Angular cdk
 
-[Demo](https://rockaru.github.io/sign/)
+[Demo](https://rockaru.github.io/material-sign/)
 
 ## Dependencies
 You will need:
@@ -32,4 +32,4 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import the module
-import { MaterialDualListboxModule } from '@rockaru/mea-material-sign';
+import { MaterialSignModule } from 'material-sign';

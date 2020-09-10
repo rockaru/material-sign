@@ -1,24 +1,35 @@
-# MaterialSign
+![Build](https://github.com/rockaru/material-sign/workflows/Build/badge.svg)
+![Demo](https://github.com/rockaru/material-sign/workflows/Demo/badge.svg)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.14.
+# Material Sign
 
-## Code scaffolding
+Simple dual list box component to use with your Angular app, along with Angular Material.
 
-Run `ng generate component component-name --project material-sign` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project material-sign`.
-> Note: Don't forget to add `--project material-sign` or else it will be added to the default project in your `angular.json` file. 
+If you don't need drag and drop support you can use [this one](https://github.com/rockaru/material-sign) without Angular cdk
 
-## Build
+[Demo](https://rockaru.github.io/material-sign/)
 
-Run `ng build material-sign` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Dependencies
+You will need:
 
-## Publishing
+- Angular ^10
+- Angular Material ^10
 
-After building your library with `ng build material-sign`, go to the dist folder `cd dist/material-sign` and run `npm publish`.
+## Instalation
 
-## Running unit tests
+To install this library, run:
 
-Run `ng test material-sign` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+$ npm install material-sign --save
+```
 
-## Further help
+and then from your Angular AppModule:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+
+// Import the module
+import { MaterialSignModule } from 'material-sign';

@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
+  signatureImage1: any;
+
+  showImage1(data) {
+    this.signatureImage1 = data;
+  }
+  signatureImage2: any;
+
+  showImage2(data) {
+    this.signatureImage2 = data;
+  }
+
 }
