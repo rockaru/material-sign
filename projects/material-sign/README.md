@@ -4,6 +4,7 @@
 # Material Sign
 
 Simple sign box component to use with your Angular app, along with Angular Material.
+Using (https://github.com/szimek/signature_pad)
 
 [Demo](https://rockaru.github.io/material-sign/)
 
