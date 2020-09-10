@@ -1,6 +1,6 @@
 {
   "name": "material-sign",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Sign Component to use with your Angular 10 App with Angular Material",
   "homepage": "https://github.com/rockaru/material-sign/blob/master/README.md",
   "bugs": {
